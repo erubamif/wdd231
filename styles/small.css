@@ -1,0 +1,163 @@
+/* Google Font */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* Prevent horizontal scrolling */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Header */
+header {
+    background-color: #003049;
+    color: white;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo span {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Hamburger Button */
+#menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Navigation */
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.navigation.open {
+    display: block;
+}
+
+.navigation li {
+    margin: 0.5rem 0;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: white;
+    background-color: #005f73;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.navigation a:hover {
+    background-color: #0a9396;
+}
+
+/* Wayfinding */
+.navigation .active {
+    background-color: #ee9b00;
+    color: black;
+}
+
+/* Main Layout */
+main {
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.buttons button {
+    padding: 0.75rem 1rem;
+    border: none;
+    background-color: #003049;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #005f73;
+}
+
+/* Course Cards */
+#course-container {
+    display: grid;
+    gap: 1rem;
+}
+
+.course-card {
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #d9d9d9;
+}
+
+.completed {
+    background-color: #94d2bd;
+    border-left: 8px solid #0a9396;
+}
+
+/* Footer */
+footer {
+    background-color: #003049;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: #ee9b00;
+}
