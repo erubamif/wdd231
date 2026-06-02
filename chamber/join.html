@@ -1,0 +1,262 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Apply for membership with the Lagos Metro Chamber of Commerce">
+    <meta name="author" content="Erubami Freedom">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Join | Lagos Metro Chamber of Commerce">
+    <meta property="og:description" content="Become a member of the Lagos Metro Chamber of Commerce.">
+    <meta property="og:image" content="https://erubamif.github.io/wdd231/chamber/images/og-image.jpg">
+    <meta property="og:url" content="https://erubamif.github.io/wdd231/chamber/join.html">
+    <meta property="og:type" content="website">
+
+    <title>Join | Lagos Metro Chamber of Commerce</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="site-name">
+        Lagos Metro Chamber of Commerce
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+</header>
+
+<main>
+
+    <h1>Join the Chamber</h1>
+
+    <div class="join-container">
+
+        <!-- FORM -->
+        <section class="form-section">
+
+            <form method="get" action="thankyou.html">
+
+                <label>
+                    First Name
+                    <input
+                        type="text"
+                        name="firstName"
+                        required
+                        title="Enter your first name"
+                        autocomplete="given-name">
+                </label>
+
+                <label>
+                    Last Name
+                    <input
+                        type="text"
+                        name="lastName"
+                        required
+                        title="Enter your last name"
+                        autocomplete="family-name">
+                </label>
+
+                <label>
+                    Organizational Title
+                    <input
+                        type="text"
+                        name="orgTitle"
+                        title="Your position within the organization"
+                        autocomplete="organization-title"
+                        pattern="[A-Za-z\s\-]{7,}">
+                </label>
+
+                <label>
+                    Email Address
+                    <input
+                        type="email"
+                        name="email"
+                        required
+                        title="Enter your email address"
+                        autocomplete="email"
+                        placeholder="example@email.com">
+                </label>
+
+                <label>
+                    Mobile Phone Number
+                    <input
+                        type="tel"
+                        name="phone"
+                        required
+                        title="Enter your mobile phone number"
+                        autocomplete="tel">
+                </label>
+
+                <label>
+                    Business / Organization Name
+                    <input
+                        type="text"
+                        name="business"
+                        required
+                        title="Business or organization name"
+                        autocomplete="organization">
+                </label>
+
+                <label>
+                    Membership Level
+                    <select name="membership">
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <label>
+                    Business Description
+                    <textarea
+                        name="description"
+                        title="Describe your organization"
+                        rows="5"></textarea>
+                </label>
+
+                <input
+                    type="hidden"
+                    name="timestamp"
+                    id="timestamp">
+
+                <input
+                    type="submit"
+                    value="Apply for Membership">
+
+            </form>
+
+        </section>
+
+        <!-- MEMBERSHIP CARDS -->
+        <section class="membership-cards">
+
+            <article class="membership-card">
+                <h2>NP Membership</h2>
+                <p>For non-profit organizations.</p>
+                <button type="button" onclick="npModal.showModal()">
+                    Learn More
+                </button>
+            </article>
+
+            <article class="membership-card">
+                <h2>Bronze Membership</h2>
+                <p>Basic chamber membership benefits.</p>
+                <button type="button" onclick="bronzeModal.showModal()">
+                    Learn More
+                </button>
+            </article>
+
+            <article class="membership-card">
+                <h2>Silver Membership</h2>
+                <p>Enhanced visibility and event discounts.</p>
+                <button type="button" onclick="silverModal.showModal()">
+                    Learn More
+                </button>
+            </article>
+
+            <article class="membership-card">
+                <h2>Gold Membership</h2>
+                <p>Premium exposure and business benefits.</p>
+                <button type="button" onclick="goldModal.showModal()">
+                    Learn More
+                </button>
+            </article>
+
+        </section>
+
+    </div>
+
+    <!-- NP MODAL -->
+    <dialog id="npModal">
+        <h2>NP Membership Benefits</h2>
+        <ul>
+            <li>No membership fee</li>
+            <li>Directory listing</li>
+            <li>Community networking opportunities</li>
+        </ul>
+        <button onclick="npModal.close()">Close</button>
+    </dialog>
+
+    <!-- BRONZE MODAL -->
+    <dialog id="bronzeModal">
+        <h2>Bronze Membership Benefits</h2>
+        <ul>
+            <li>Directory listing</li>
+            <li>Business networking events</li>
+            <li>Training workshops</li>
+        </ul>
+        <button onclick="bronzeModal.close()">Close</button>
+    </dialog>
+
+    <!-- SILVER MODAL -->
+    <dialog id="silverModal">
+        <h2>Silver Membership Benefits</h2>
+        <ul>
+            <li>All Bronze benefits</li>
+            <li>Advertising opportunities</li>
+            <li>Event discounts</li>
+            <li>Featured directory placement</li>
+        </ul>
+        <button onclick="silverModal.close()">Close</button>
+    </dialog>
+
+    <!-- GOLD MODAL -->
+    <dialog id="goldModal">
+        <h2>Gold Membership Benefits</h2>
+        <ul>
+            <li>All Silver benefits</li>
+            <li>Homepage spotlight advertising</li>
+            <li>Premium promotion opportunities</li>
+            <li>Priority event access</li>
+        </ul>
+        <button onclick="goldModal.close()">Close</button>
+    </dialog>
+
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p><strong>Lagos Metro Chamber of Commerce</strong></p>
+        <p>123 Marina Road, Lagos, Nigeria</p>
+        <p>info@lagosmetrochamber.org</p>
+        <p>+234 800 123 4567</p>
+
+        <p>
+            &copy; <span id="year"></span>
+            | Erubami Freedom
+            | WDD 231
+        </p>
+
+        <p>
+            Last Modified:
+            <span id="lastModified"></span>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
+```

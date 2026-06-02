@@ -44,3 +44,9 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+@media (min-width: 768px) {
+
+    .thankyou-card {
+        padding: 3rem;
+    }
+}
