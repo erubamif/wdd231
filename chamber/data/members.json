@@ -1,0 +1,65 @@
+[
+  {
+    "name": "TechNova Solutions",
+    "address": "Victoria Island, Lagos",
+    "phone": "+234 801 234 5678",
+    "website": "https://technova.com",
+    "image": "company1.jpg",
+    "membership": 3,
+    "description": "Software development and IT consulting company."
+  },
+  {
+    "name": "Lagos Fresh Foods",
+    "address": "Ikeja, Lagos",
+    "phone": "+234 802 345 6789",
+    "website": "https://lagosfreshfoods.com",
+    "image": "company2.jpg",
+    "membership": 2,
+    "description": "Food supply and grocery distribution services."
+  },
+  {
+    "name": "BlueWave Logistics",
+    "address": "Apapa, Lagos",
+    "phone": "+234 803 456 7890",
+    "website": "https://bluewavelogistics.com",
+    "image": "company3.jpg",
+    "membership": 3,
+    "description": "Shipping and logistics solutions."
+  },
+  {
+    "name": "GreenLeaf Agro",
+    "address": "Epe, Lagos",
+    "phone": "+234 804 567 8901",
+    "website": "https://greenleafagro.com",
+    "image": "company4.jpg",
+    "membership": 1,
+    "description": "Agricultural farming and produce distribution."
+  },
+  {
+    "name": "Elite Fashion House",
+    "address": "Surulere, Lagos",
+    "phone": "+234 805 678 9012",
+    "website": "https://elitefashion.com",
+    "image": "company5.jpg",
+    "membership": 2,
+    "description": "Modern fashion design and tailoring services."
+  },
+  {
+    "name": "Sunrise Construction",
+    "address": "Lekki, Lagos",
+    "phone": "+234 806 789 0123",
+    "website": "https://sunriseconstruction.com",
+    "image": "company6.jpg",
+    "membership": 3,
+    "description": "Building and civil engineering company."
+  },
+  {
+    "name": "BrightSpark Media",
+    "address": "Yaba, Lagos",
+    "phone": "+234 807 890 1234",
+    "website": "https://brightsparkmedia.com",
+    "image": "company7.jpg",
+    "membership": 1,
+    "description": "Digital marketing and media production agency."
+  }
+]

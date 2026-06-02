@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+
+  #members-container.grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #members-container.list .card {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .card img {
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+
+    #members-container.grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #members-container.list .card {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        text-align: left;
+    }
+
+    .card img {
+        width: 180px;
+        height: 120px;
+        object-fit: cover;
+    }
+}
