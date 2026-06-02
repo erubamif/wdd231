@@ -1,53 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Lagos Metro Chamber of Commerce Business Directory">
-  <meta name="author" content="Erubami Freedom">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Business Directory for the Lagos Metro Chamber of Commerce">
+    <meta name="author" content="Erubami Freedom">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Facebook Meta -->
-  <meta property="og:title" content="Lagos Chamber Directory">
-  <meta property="og:description" content="Explore registered businesses in Lagos Metro Chamber of Commerce">
-  <meta property="og:image" content="images/og-image.jpg">
-  <meta property="og:url" content="https://erubamif.github.io/wdd231/chamber/directory.html">
+    <!-- Open Graph Meta Data -->
+    <meta property="og:title" content="Lagos Metro Chamber Directory">
+    <meta property="og:description" content="Explore member businesses of the Lagos Metro Chamber of Commerce.">
+    <meta property="og:image" content="https://erubamif.github.io/wdd231/chamber/images/og-image.jpg">
+    <meta property="og:url" content="https://erubamif.github.io/wdd231/chamber/directory.html">
+    <<meta property="og:image" content="https://erubamif.github.io/wdd231/chamber/images/og-image.jpg">
 
-  <title>Directory - Lagos Chamber of Commerce</title>
+    <title>Directory | Lagos Metro Chamber of Commerce</title>
 
-  <!-- Favicon -->
-  <link rel="icon" href="images/favicon.ico">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
 
-  <!-- CSS (IMPORTANT ORDER) -->
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/small.css">
-  <link rel="stylesheet" href="styles/larger.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <script defer src="scripts/directory.js"></script>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/directory.js" defer></script>
 </head>
 
 <body>
 
 <header>
-  <h1>Lagos Metro Chamber</h1>
+    <div class="site-name">
+        Lagos Metro Chamber of Commerce
+    </div>
 
-  <nav>
-    <a href="directory.html">Directory</a>
-  </nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
 
-  <div class="view-buttons">
-    <button id="gridBtn">Grid View</button>
-    <button id="listBtn">List View</button>
-  </div>
+    <div class="view-buttons">
+        <button id="gridBtn">Grid View</button>
+        <button id="listBtn">List View</button>
+    </div>
 </header>
 
 <main>
-  <section id="members-container" class="grid"></section>
+    <h1>Business Directory</h1>
+
+    <section id="members-container" class="grid">
+        <!-- Member cards loaded dynamically from members.json -->
+    </section>
 </main>
 
 <footer>
-  <p>&copy; <span id="year"></span> Lagos Metro Chamber</p>
-  <p>Erubami Freedom | WDD 231</p>
-  <p>Last Modified: <span id="lastModified"></span></p>
+    <div class="footer-content">
+        <p><strong>Lagos Metro Chamber of Commerce</strong></p>
+        <p>123 Marina Road, Lagos, Nigeria</p>
+        <p>info@lagosmetrochamber.org</p>
+        <p>+234 800 123 4567</p>
+
+        <br>
+
+        <p>
+            &copy; <span id="year"></span> |
+            Erubami Freedom |
+            WDD 231
+        </p>
+
+        <p>
+            Last Modified:
+            <span id="lastModified"></span>
+        </p>
+    </div>
 </footer>
 
 </body>
