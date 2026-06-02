@@ -34,3 +34,13 @@
         object-fit: cover;
     }
 }
+@media (min-width: 768px) {
+
+    .home-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .spotlight-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
