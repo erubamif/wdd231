@@ -1,4 +1,3 @@
-javascript
 export const places = [
   {
     name: "Lekki Conservation Centre",
