@@ -22,7 +22,7 @@ places.forEach((place, index) => {
 
         <p>${place.description}</p>
 
-        <button>Learn More</button>
+       <button type="button">Learn More</button>
     `;
 
     grid.appendChild(card);
