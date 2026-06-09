@@ -1,4 +1,4 @@
-```javascript
+javascript
 export const places = [
   {
     name: "Lekki Conservation Centre",
@@ -49,4 +49,3 @@ export const places = [
     description: "A famous cultural and entertainment venue."
   }
 ];
-```
