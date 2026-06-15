@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Monthly Salary",
+    "amount": 2500,
+    "category": "Income",
+    "date": "2026-06-01",
+    "type": "Income"
+  },
+  {
+    "id": 2,
+    "title": "Groceries",
+    "amount": 120,
+    "category": "Food",
+    "date": "2026-06-02",
+    "type": "Expense"
+  },
+  {
+    "id": 3,
+    "title": "Transport",
+    "amount": 50,
+    "category": "Travel",
+    "date": "2026-06-03",
+    "type": "Expense"
+  },
+  {
+    "id": 4,
+    "title": "Internet",
+    "amount": 40,
+    "category": "Utilities",
+    "date": "2026-06-04",
+    "type": "Expense"
+  },
+  {
+    "id": 5,
+    "title": "Freelance Work",
+    "amount": 500,
+    "category": "Income",
+    "date": "2026-06-05",
+    "type": "Income"
+  },
+  {
+    "id": 6,
+    "title": "Electricity",
+    "amount": 75,
+    "category": "Utilities",
+    "date": "2026-06-06",
+    "type": "Expense"
+  },
+  {
+    "id": 7,
+    "title": "Dining Out",
+    "amount": 60,
+    "category": "Food",
+    "date": "2026-06-07",
+    "type": "Expense"
+  },
+  {
+    "id": 8,
+    "title": "Books",
+    "amount": 35,
+    "category": "Education",
+    "date": "2026-06-08",
+    "type": "Expense"
+  },
+  {
+    "id": 9,
+    "title": "Savings Deposit",
+    "amount": 300,
+    "category": "Savings",
+    "date": "2026-06-09",
+    "type": "Income"
+  },
+  {
+    "id": 10,
+    "title": "Phone Bill",
+    "amount": 25,
+    "category": "Utilities",
+    "date": "2026-06-10",
+    "type": "Expense"
+  },
+  {
+    "id": 11,
+    "title": "Fuel",
+    "amount": 80,
+    "category": "Transport",
+    "date": "2026-06-11",
+    "type": "Expense"
+  },
+  {
+    "id": 12,
+    "title": "Movie Night",
+    "amount": 30,
+    "category": "Entertainment",
+    "date": "2026-06-12",
+    "type": "Expense"
+  },
+  {
+    "id": 13,
+    "title": "Bonus",
+    "amount": 400,
+    "category": "Income",
+    "date": "2026-06-13",
+    "type": "Income"
+  },
+  {
+    "id": 14,
+    "title": "Gym Membership",
+    "amount": 45,
+    "category": "Health",
+    "date": "2026-06-14",
+    "type": "Expense"
+  },
+  {
+    "id": 15,
+    "title": "Software Subscription",
+    "amount": 20,
+    "category": "Technology",
+    "date": "2026-06-15",
+    "type": "Expense"
+  }
+]

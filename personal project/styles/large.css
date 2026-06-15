@@ -1,0 +1,30 @@
+
+@media screen and (min-width: 768px) {
+
+    header {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+    }
+
+    #menuBtn {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        justify-self: end;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .summary {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .transactions-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }

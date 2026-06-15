@@ -1,0 +1,158 @@
+:root {
+    --primary-color: #2E8B57;
+    --secondary-color: #F4F4F4;
+    --accent-color: #1E293B;
+    --text-color: #333333;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+#menuBtn {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: .5rem;
+}
+
+nav {
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: .75rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: rgba(255,255,255,.2);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.summary {
+    display: grid;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+.card h3 {
+    margin-bottom: .5rem;
+    color: var(--accent-color);
+}
+
+.card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.transactions-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.transaction-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.transaction-card:hover {
+    transform: translateY(-3px);
+    transition: .3s;
+}
+
+dialog {
+    padding: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+dialog::backdrop {
+    background: rgba(0,0,0,.5);
+}
+
+#closeModal {
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--accent-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    margin: 0 .5rem;
+    text-decoration: none;
+}

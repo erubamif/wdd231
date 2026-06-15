@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Budget Planner</title>
+
+<link rel="stylesheet"
+      href="styles/base.css">
+
+<link rel="stylesheet"
+      href="styles/large.css">
+
+<script type="module"
+        src="scripts/planner.js"
+        defer></script>
+
+        <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+<header>
+<h1>Budget Planner</h1>
+</header>
+
+<main>
+
+<h2>Set Your Savings Goal</h2>
+
+<form id="goalForm" action="form-action.html" method="get">
+
+    <label for="goal">Savings Goal:</label>
+
+    <input
+        type="number"
+        id="goal"
+        name="goal"
+        required>
+
+    <button type="submit">
+        Submit Goal
+    </button>
+
+</form>
+
+<p id="goalDisplay"></p>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Smart Budget Tracker</p>
+
+    <a href="attributions.html">Attributions</a>
+
+    <a href="https://www.loom.com/share/4add5d2622a44595bdbaf00e4cf2905d">
+        Project Demo Video
+    </a>
+</footer>
+
+</body>
+</html>
