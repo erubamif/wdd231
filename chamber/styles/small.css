@@ -2,14 +2,6 @@
 /* Global Styles */
 
 body {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: #222;
-}
-
-/* General Styles */
-body {
     font-family: "Poppins", Arial, sans-serif;
     margin: 0;
     background-color: #f4f4f4;
@@ -138,12 +130,6 @@ main h1 {
     margin: 1rem 0;
 }
 
-footer {
-    background-color: #1E3A8A;
-    color: white;
-    text-align: center;
-    padding: 1.5rem;
-}
 
 .footer-content {
     max-width: 800px;
@@ -177,12 +163,6 @@ footer {
     padding: 1rem 0;
 }
 
-.card {
-    background: white;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.1);
-}
 
 main h1,
 main h2 {
@@ -217,10 +197,6 @@ main h2 {
     border-radius: 4px;
 }
 
-main h1 {
-    text-align: center;
-    margin-top: 1rem;
-}
 
 #visit-message {
     background: #fbbf24;
@@ -265,6 +241,7 @@ main h1 {
     width: 100%;
     border-radius: 8px;
 }
+
 
 .visually-hidden {
     position:absolute;
